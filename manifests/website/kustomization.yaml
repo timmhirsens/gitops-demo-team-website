@@ -5,3 +5,6 @@ resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
+commonAnnotations:
+  owner: team-website
+  env: dev
