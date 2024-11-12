@@ -17,10 +17,9 @@ spec:
         app: website
     spec:
       containers:
-      - name: website
-        image: hashicorp/http-echo
-        args:
-        - "-text=website"
-        ports:
-        - containerPort: 5678
-
+        - name: website
+          image: hashicorp/http-echo
+          args:
+            - "-text=devops"
+          ports:
+            - containerPort: 5678
